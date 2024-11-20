@@ -8,7 +8,7 @@
 Bu proje, Kaggle'dan alınan veri seti ile COVID-19 komplikasyon riskini tahmin etmek amacıyla hazırlanmıştır.  
 Veri setine [buradan ulaşabilirsiniz](https://www.kaggle.com/datasets/meirnizri/covid19-dataset).
 
-Kaggle projeme ulaşmak için Tıklayın [buradan ulaşabilirsiniz]([https://www.kaggle.com/datasets/meirnizri/covid19-dataset](https://www.kaggle.com/code/gokay339/aygaz-dev)).
+Kaggle projeme ulaşmak için Tıklayın[ buradan ulaşabilirsiniz]([https://www.kaggle.com/datasets/meirnizri/covid19-dataset](https://www.kaggle.com/code/gokay339/aygaz-dev)).
 
 ## Kullanılan Kütüphaneler
 - **Pandas**
