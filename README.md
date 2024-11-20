@@ -5,7 +5,8 @@
 
 
 ## Proje Hakkında
-Bu proje, Kaggle'dan alınan veri seti ile COVID-19 komplikasyon riskini tahmin etmek amacıyla hazırlanmıştır.
+Bu proje, Kaggle'dan alınan veri seti ile COVID-19 komplikasyon riskini tahmin etmek amacıyla hazırlanmıştır.  
+Veri setine [buradan ulaşabilirsiniz](https://www.kaggle.com/datasets/meirnizri/covid19-dataset).
 
 ## Kullanılan Kütüphaneler
 - **Pandas**
@@ -60,3 +61,6 @@ Boş verilerin yerine ortalama değerler ile doldurma yöntemini denedim ve bu y
 - 50. kişinin COVID durumu tahmini (KNN modeline göre): 0
 - 50. kişinin COVID durumu tahmini (CART modeline göre): 0
 - 50. kişinin COVID durumu tahmini (XGBoost modeline göre): 0
+ 
+###
+Kaggle Linki : 
