@@ -65,4 +65,5 @@ Boş verilerin yerine ortalama değerler ile doldurma yöntemini denedim ve bu y
 - 50. kişinin COVID durumu tahmini (XGBoost modeline göre): 0
  
 ###
-Kaggle Linki : 
+
+Kaggle Linki : https://www.kaggle.com/code/gokay339/aygaz-dev
