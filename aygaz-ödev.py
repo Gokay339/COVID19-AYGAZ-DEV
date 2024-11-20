@@ -62,91 +62,18 @@ def grab_col_names(dataframe, cat_th=10, car_th=20):
 
 
 cat_cols, num_cols, cat_but_car = grab_col_names(df, cat_th=5, car_th=20)
-"""
-1.
-cat_cols
-Kategorik(string / object
-tipi) sütunları
-içerir.
 
-Örneğin, "City"
-sütunu(Ankara, İstanbul, İzmir)
-ve
-"Gender"
-sütunu(Male, Female).
+"""cat_cols: Kategorik (string/object tipi) sütunları içerir.
+Örneğin, "City" sütunu (Ankara, İstanbul, İzmir) ve "Gender" sütunu (Male, Female).
 
-2.
-num_but_cat
-Sayısal
-olup, benzersiz
-değer
-sayısı
-düşük
-olduğu
-için
-kategorik
-gibi
-davranan
-sütunları
-içerir.
+num_but_cat: Sayısal olup, benzersiz değer sayısı düşük olduğu için kategorik gibi davranan sütunları içerir.
+Örneğin, "Age_Group" sütunu (1, 2, 3 grupları) veya "Binary_Flag" sütunu (0 ve 1 değerleri).
 
-Örneğin, "Age_Group"
-sütunu(1, 2, 3
-grupları) veya
-"Binary_Flag"
-sütunu(0
-ve
-1
-değerleri).
+cat_but_car: Kategorik görünümlü (object tipi) ancak benzersiz değer sayısı yüksek olduğu için kardinal olan sütunları içerir.
+Örneğin, "Customer_ID" sütunu (her müşteri için eşsiz bir ID) veya "Invoice_Number" sütunu (her fatura için benzersiz bir numara).
 
-3.
-cat_but_car
-Kategorik
-görünümlü(object
-tipi) ancak
-benzersiz
-değer
-sayısı
-yüksek
-olduğu
-için
-kardinal
-olan
-sütunları
-içerir..
-
-Örneğin, "Customer_ID"
-sütunu(her
-müşteri
-için
-eşsiz
-bir
-ID) veya
-"Invoice_Number"
-sütunu(her
-fatura
-için
-benzersiz
-bir
-numara).
-
-4.
-num_cols
-Sayısal
-sütunları
-içerir, ancak
-sayısal
-olup
-kategorik
-davranan
-sütunları
-çıkarır.
-
-Örneğin, "Salary"
-sütunu(5000, 7000, 10000)
-ve
-"Age"
-sütunu(25, 30, 35)."""
+num_cols: Sayısal sütunları içerir, ancak sayısal olup kategorik davranan sütunları çıkarır.
+Örneğin, "Salary" sütunu (5000, 7000, 10000) ve "Age" sütunu (25, 30, 35)."""
 
 # NAN VERİ EKLEYELİM
 import pandas as pd
@@ -622,17 +549,7 @@ df2.head(5)
 
 # VERİSETİNDEN 5000 SATIR ALIYORUM
 
-"""5000
-ALMAMIN
-SEBEBİ
-BU
-MODELDE
-3 - 4
-FARKLI
-MODELİN
-SONUÇLARINI
-ALIYORUM
-"""
+""" 5000 ALMAMIN SEBEBİ BU MODELDE 3 - 4 FARKLI MODELİN SONUÇLARINI ALIYORUM """
 
 # Bu kod ile kategorik , sayısal ve kategorik gibi gözüken sayısal verileri buluyoruz
 def grab_col_names(dataframe, cat_th=10, car_th=20):
